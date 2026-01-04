@@ -57,3 +57,24 @@
 
 </body>
 </html>
+<section class="mx-6 p-6 bg-white rounded-2xl shadow-md border border-gray-100 mt-8">
+    <h2 class="text-gray-800 font-bold text-lg mb-4">Book a Session</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST" class="space-y-4">
+        <input type="text" name="name" placeholder="Patient Name" required 
+               class="w-full p-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 bg-gray-50">
+        
+        <input type="tel" name="phone" placeholder="Phone Number (e.g., 9606580439)" required 
+               class="w-full p-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 bg-gray-50">
+        
+        <select name="service" class="w-full p-3 border border-gray-200 rounded-lg bg-gray-50">
+            <option>Orthopedic Physiotherapy</option>
+            <option>Sports Injury Rehab</option>
+            <option>Neuro Rehabilitation</option>
+            <option>Post-Surgery Care</option>
+        </select>
+        
+        <button type="submit" class="w-full bg-gradient-to-r from-[#1e4b8a] to-[#6e9e3a] text-white font-bold py-4 rounded-lg shadow-lg">
+            Request Booking
+        </button>
+    </form>
+</section>
